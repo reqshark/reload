@@ -1,0 +1,8 @@
+{
+  "name": "reload",
+  "description": "a forked process restarts itself after any file in some directory is saved or renamed",
+  "version": "0.0.2",
+  "author": "Bent Cardan <bent@shakelaw.com>",
+  "repository": "git://github.com/reqshark/reload",
+  "license": "MIT"
+}
