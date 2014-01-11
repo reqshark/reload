@@ -1,6 +1,18 @@
-var spawn = require('child_process').spawn
-var fs = require('fs')
+
+/**
+ * Module dependencies.
+ */
+ 
+var spawn = require('child_process').spawn;
+var fs = require('fs');
 var glob = require('glob');
+
+/**
+ * Module exports.
+ */
+ 
+module.exports = reload;
+
 
 var dir = 'views/partials/';
 var ext = 'jade';
