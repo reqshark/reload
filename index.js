@@ -1,4 +1,3 @@
-
 var spawn = require('child_process').spawn
 var fs = require('fs')
 var glob = require('glob');
@@ -26,7 +25,7 @@ function watch(n){
         if (er) throw er;
         
         for (var i=0; fs[i]; i++)
-          if (f == fs[i].split('.')[1]) {
+          if (f == fs[i].split(dir)[1]) {
             return stop(n)
           }
       
