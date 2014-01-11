@@ -4,5 +4,8 @@
   "version": "0.0.2",
   "author": "Bent Cardan <bent@shakelaw.com>",
   "repository": "git://github.com/reqshark/reload",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies":{
+    "glob":"*"
+  }
 }
